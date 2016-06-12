@@ -1,4 +1,4 @@
-var similarity = require("./")
+var similarity = require('.')
 
 similarity("food", "food") // 1
 similarity("food", "fool") // 0.75
